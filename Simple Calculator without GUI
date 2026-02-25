@@ -1,7 +1,7 @@
-#Simlpe Calculator Without GUI
+# Simple Calculator Without GUI
 num = float(input("Enter first number: "))
 NUM = float(input("Enter second number: "))
-print("Addition: {num} + {NUM} = {num + NUM}")
-print("Subtraction: {num} - {NUM} = {num - NUM}")
-print("Multiplication: {num} - {NUM} = {num * NUM}")
-print("Division: {num} / {NUM} = {num / NUM}")
+print(f"Addition: {num} + {NUM} = {num + NUM}")
+print(f"Subtraction: {num} - {NUM} = {num - NUM}")
+print(f"Multiplication: {num} * {NUM} = {num * NUM}")
+print(f"Division: {num} / {NUM} = {num / NUM}")
