@@ -1,0 +1,7 @@
+#Simlpe Calculator Without GUI
+num = float(input("Enter first number: "))
+NUM = float(input("Enter second number: "))
+print(f"Addition: {num} + {NUM} = {2f:.num + NUM})
+print(f"Subtraction: {num} - {NUM} = {2f:.num - NUM}
+print(f"Multiplication: {num} - {NUM} = {2f:.num * NUM})
+print(f"Division: {num} / {NUM} = {2f:.num / NUM})
