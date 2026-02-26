@@ -1,0 +1,17 @@
+# 1 MCQ trial quiz game
+print("Welcome to the quiz game! 🥳")
+print("Question 1: What is the name of the largest country in the world?")
+a = "a. Russia"
+b = "b. Japan"
+c = "c. United States of America"
+d = "d. Brazil"
+print(a)
+print(b)
+print(c)
+print(d)
+print("Type your answer as 'a', 'b', 'c', or 'd'")
+e = input("Enter your answer: ")
+if e == "a":
+    print("Congratulations! you told the right answer! 🥳")
+else:
+    print("Uh oh! You told the wrong answer!")
