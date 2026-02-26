@@ -1,0 +1,52 @@
+# 1 MCQ trial quiz game
+print("Welcome to the quiz game! 🥳")
+print("Question 1: What is the name of the largest country in the world?")
+a = "a. Russia"
+b = "b. Japan"
+c = "c. United States of America"
+d = "d. Brazil"
+print(a)
+print(b)
+print(c)
+print(d)
+print("Type your answer as 'a', 'b', 'c', or 'd'")
+e = input("Enter your answer: ")
+if e == "a":
+    print("Congratulations! you told the right answer! 🥳")
+else:
+    print("Uh oh! You told the wrong answer!")
+print("Question 2: Anime is orginated from which country?")
+print(a)
+print(b)
+print(c)
+print(d)
+f = input("Enter your answer: ")
+if f == "b":
+    print("Congratulations! you told the right answer! 🥳")
+else:
+    print("Uh oh! You told the wrong answer!")
+print("Question 3: What is the country in which President Abraham Lincon was born?")
+print(a)
+print(b)
+print(c)
+print(d)
+print("Type your answer as 'a', 'b', 'c', or 'd'")
+g = input("Enter your answer: ")
+if g == "c":
+    print("Congratulations! You told the right answer! 🥳")
+else:
+    print("Uh on! You told the wrong answer!")
+print("Question 4: Which country has it's national sports as Football (Soccer)? ")
+print(a)
+print(b)
+print(c)
+print(d)
+print("Type your answer as 'a', 'b', 'c', or 'd'")
+h = input("Enter your answer: ")
+if h == "d":
+    print("Congratulations! You told the right answer! 🥳")
+else:
+    print("Uh on! You told the wrong answer!")
+print("Yo! This is my first quiz making using Python!")
+print(" Hope you enjoyed it!")
+print("I will surely improve my skills in Python and make it stronger!!!")
