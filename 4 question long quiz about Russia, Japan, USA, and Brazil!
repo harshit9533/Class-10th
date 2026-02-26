@@ -1,4 +1,4 @@
-# 1 MCQ trial quiz game
+# First quiz!
 print("Welcome to the quiz game! 🥳")
 print("Question 1: What is the name of the largest country in the world?")
 a = "a. Russia"
