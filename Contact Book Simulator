@@ -1,0 +1,46 @@
+#Contact Book Simulator
+contacts = {
+    "Naveen": "9212812644",
+    "Anita": "9268561665",
+    "Harshit": "2025029332",
+    "Nisha": "92667981665",
+    "Aaryan": "9895657482"
+}
+while True:
+    print("\n-----Contact Book-----")
+    print("1. Add Contact")
+    print("2. View Contact")
+    print("3. Search Contact")
+    print("4. Delete Contact")
+    print("5. Exit")
+    choice = input("Enter your choice: ")
+    if choice == "1":
+        name = input("Enter Name: ")
+        phone = input("Enter Phone Number: ")
+        contacts[name] = phone
+        print("Contact added successfully!")
+    elif choice == "2":
+        if contacts:
+            print("\nSaved Contacts")
+            for name, phone in contacts.items():
+                print(name, ":", phone)
+        else:
+            print("No contacts found.")
+    elif choice == "3":
+        search_name = input("Enter Name to Search: ")
+        if search_name in contacts:
+            print(search_name, ":", contacts[search_name])
+        else:
+            print("Contact not found.")
+    elif choice == "4":
+        delete_name = input("Enter Name to Delete: ")
+        if delete_name in contacts:
+            del contacts[delete_name]
+            print("Contact deleted successfully!")
+        else:
+            print("Contact not found.")
+    elif choice == "5":
+        print("Exiting Contact Book. Goodbye!")
+        break
+    else:
+        print("Invalid choice. Please try again.")
