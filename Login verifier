@@ -1,0 +1,6 @@
+username = "Harshit"
+enter_username = input("Enter your username: ")
+if username.lower() == enter_username.lower():
+    print("Login successful! 🎉")
+else:
+    print("⚠ Login unsuccessful! ⚠")
