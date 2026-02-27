@@ -1,0 +1,20 @@
+#Fake bank money withdraw simulator
+print("Hello sir/ma'am! Welcome to our state of the art bank!")
+correct_username = "Harshit"
+correct_password = "Harshit9533"
+entered_username = input("Enter your username: ")
+entered_password = input("Enter your password: ")
+if correct_username.lower() != entered_username.lower() or correct_password.lower() !=  entered_password.lower():
+    print("Wrong details!")
+else:
+    balance = 10000
+    print("Your bank balance: ", balance)
+    money_withdrawed = int(input("Enter the amount of money would you like to withdraw: "))
+    if money_withdrawed <= 0:
+        print("Enter a valid amount!")
+    elif money_withdrawed >= 10000:
+        print("You don't have enough bank balance!")
+    else:
+        print("Money withdrawl successful!")
+        print("money_withdrawed)Amount left in bank: ", balance - money_withdrawed)
+        print("Thanks for giving trust to our bank! Have a nice day!")
